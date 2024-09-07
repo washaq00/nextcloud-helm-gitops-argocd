@@ -1,12 +1,10 @@
 key:
   components:
-    - name: nextcloud-fw
-      chart: nextcloud-demo
-      releaseName: nextcloud-fw
-      repoUrl: "https://gitlab.dco.webdisk.io/infra/kube.git"
-      namespace: nextcloud-fw
     - name: nextcloud-pp
-      chart: nextcloud-demo
       releaseName: nextcloud-pp
       repoUrl: "https://gitlab.dco.webdisk.io/infra/kube.git"
       namespace: nextcloud-pp
+    - name: nextcloud-fw
+      releaseName: nextcloud-fw
+      repoUrl: "https://gitlab.dco.webdisk.io/infra/kube.git"
+      namespace: nextcloud-fw
