@@ -8,3 +8,7 @@ key:
       releaseName: nextcloud-fw
       repoUrl: "https://gitlab.dco.webdisk.io/infra/kube.git"
       namespace: nextcloud-fw
+    - name: nextcloud-ss
+      releaseName: nextcloud-ss
+      repoUrl: "https://gitlab.dco.webdisk.io/infra/kube.git"
+      namespace: nextcloud-ss
