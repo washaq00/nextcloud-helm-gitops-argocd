@@ -12,3 +12,8 @@ key:
       releaseName: nextcloud-ss
       repoUrl: "https://gitlab.dco.webdisk.io/infra/kube.git"
       namespace: nextcloud-ss
+    - name: nextcloud-gg
+      releaseName: nextcloud-gg
+      repoUrl: "https://gitlab.dco.webdisk.io/infra/kube.git"
+      namespace: nextcloud-gg
+
