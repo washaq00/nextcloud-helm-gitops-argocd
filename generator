@@ -1,7 +1,7 @@
 key:
   components:
     - name: nextcloud-fw
-      chart: podinfo
+      chart: nextcloud-demo
       releaseName: nextcloud-fw
       repoUrl: "https://gitlab.dco.webdisk.io/infra/kube.git"
       namespace: nextcloud-fw
