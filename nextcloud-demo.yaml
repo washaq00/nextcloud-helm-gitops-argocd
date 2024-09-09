@@ -75,18 +75,18 @@ phpClientHttpsFix:
 
 nextcloud:
   host: demo.next.webdisk.io
-  username: admin
-  password: admin123
+  username: 
+  password: 
   ## Use an existing secret
   existingSecret:
     enabled: false
     # secretName: nameofsecret
-    usernameKey: nextcloud-username
-    passwordKey: nextcloud-password
+    usernameKey:
+    passwordKey: 
     tokenKey: ""
-    smtpUsernameKey: smtp-username
-    smtpPasswordKey: smtp-password
-    smtpHostKey: smtp-host
+    smtpUsernameKey:
+    smtpPasswordKey: 
+    smtpHostKey: 
   update: 0
   # If web server is not binding default port, you can define it
   containerPort: 80
